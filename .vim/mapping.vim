@@ -1,0 +1,4 @@
+nnoremap ; :
+nnoremap : ;
+vnoremap ; :
+vnoremap : ;
