@@ -1,3 +1,4 @@
+set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -14,5 +15,4 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'easymotion/vim-easymotion'
 
 call vundle#end()
-
 filetype plugin indent on
