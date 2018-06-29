@@ -269,13 +269,9 @@
 	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
-	<key>NSFontPanelAttributes</key>
-	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/.dotfiles</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
-	<key>NSNavPanelExpandedSizeForSaveMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
@@ -308,23 +304,47 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<key>NSTouchBarConfig: full screen</key>
 	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
+		<key>CurrentItems</key>
+		<array>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+		</array>
+		<key>DefaultItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>iTermTouchBarIdentifierColorPreset</string>
+			<string>iTermTouchBarIdentifierFunctionKeys</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>tab bar</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+			<string>iTermTouchBarIdentifierAddMark</string>
+			<string>iTermTouchBarIdentifierPreviousMark</string>
+			<string>iTermTouchBarIdentifierNextMark</string>
+		</array>
 	</dict>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>667 110 445 258 0 0 1440 900 </string>
-	<key>NSWindow Frame SessionsPreferences</key>
-	<string>313 74 606 469 0 0 1440 900 </string>
+	<key>NSTouchBarConfig: regular</key>
+	<dict>
+		<key>CurrentItems</key>
+		<array>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+		</array>
+		<key>DefaultItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>iTermTouchBarIdentifierColorPreset</string>
+			<string>iTermTouchBarIdentifierFunctionKeys</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+			<string>iTermTouchBarIdentifierAddMark</string>
+			<string>iTermTouchBarIdentifierPreviousMark</string>
+			<string>iTermTouchBarIdentifierNextMark</string>
+		</array>
+	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>419 190 796 473 0 0 1440 900 </string>
+	<string>304 284 796 486 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>178 93 1060 740 0 0 1440 900 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>176 75 1060 740 0 0 1440 900 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>197 52 1060 740 0 0 1440 900 </string>
+	<string>190 80 1060 740 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_F00521B4-F1D7-4C5A-9D1B-E0641F82D6EC</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_F00521B4-F1D7-4C5A-9D1B-E0641F82D6EC_selection</key>
@@ -1006,20 +1026,63 @@
 			<string>/Users/frolv</string>
 		</dict>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>04ABCC4E-5C37-47E1-BFDE-0FE874073B54</string>
-	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
-	<key>NoSyncPermissionToShowTip</key>
-	<false/>
+	<string>2D498039-D65E-4E2E-9A21-C66FF234D480</string>
+	<key>NoSyncRecordedVariableNames</key>
+	<dict>
+		<key>1</key>
+		<array>
+			<string>session.jobName</string>
+			<string>session.id</string>
+			<string>session.profileName</string>
+			<string>session.name</string>
+			<string>session.tmuxClientName</string>
+			<string>session.terminalIconName</string>
+			<string>session.termid</string>
+			<string>session.hostname</string>
+			<string>session.username</string>
+			<string>session.tmuxRole</string>
+			<string>session.autoLogId</string>
+			<string>session.autoName</string>
+			<string>session.creationTimeString</string>
+			<string>session.path</string>
+			<string>session.rows</string>
+			<string>session.tmuxWindowTitle</string>
+			<string>session.tty</string>
+			<string>session.terminalWindowName</string>
+			<string>session.lastCommand</string>
+			<string>session.presentationName</string>
+			<string>session.columns</string>
+		</array>
+		<key>2</key>
+		<array>
+			<string>currentSession</string>
+			<string>currentSession.session.termid</string>
+			<string>currentSession.session.autoName</string>
+			<string>currentSession.session.name</string>
+			<string>currentSession.session.terminalWindowName</string>
+			<string>currentSession.session.tty</string>
+			<string>currentSession.session.hostname</string>
+			<string>currentSession.session.lastCommand</string>
+			<string>currentSession.session.presentationName</string>
+			<string>tmuxWindow</string>
+			<string>currentSession.session.terminalIconName</string>
+			<string>currentSession.session.username</string>
+			<string>currentSession.session.jobName</string>
+			<string>currentSession.session.rows</string>
+			<string>currentSession.session.columns</string>
+		</array>
+		<key>4</key>
+		<array>
+			<string>pid</string>
+		</array>
+	</dict>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>535708096.05130899</real>
+	<real>551969736.65611804</real>
 	<key>OpenArrangementAtStartup</key>
 	<true/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -1060,7 +1123,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/frolv/.dotfiles</string>
+	<string>/Users/aleksandr.frolov/.dotfiles</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1072,11 +1135,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=12</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=65</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-26T10:42:23Z</date>
+	<date>2018-06-29T13:12:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1908,7 +1971,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.1.20171219-nightly</string>
+	<string>3.2.20180629-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>7</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
