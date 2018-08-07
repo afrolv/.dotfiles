@@ -1033,6 +1033,8 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>2D498039-D65E-4E2E-9A21-C66FF234D480</string>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariableNames</key>
 	<dict>
 		<key>1</key>
@@ -1140,7 +1142,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-29T13:12:29Z</date>
+	<date>2018-08-07T09:33:55Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
