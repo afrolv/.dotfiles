@@ -48,9 +48,11 @@ let g:airline_powerline_fonts = 1
 let g:bufferline_echo = 0
 let g:bufferline_show_bufnr = 0
 let g:bufferline_solo_highlight = 1
+let g:cpp_class_scope_highlight = 1
 
 set completeopt=menuone
 map <C-]> ;YcmCompleter GoToDefinitionElseDeclaration<CR>
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:echodoc#enable_at_startup = 1
 
 autocmd BufWritePre * :%s/\s\+$//e

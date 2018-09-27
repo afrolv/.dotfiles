@@ -1,20 +1,3 @@
-import os
-import ycm_core
-
-flags = [
-    '-Wall',
-    '-Wextra',
-    '-Werror',
-    '-Wpedantic',
-    #'-Wno-long-long',
-    #'-Wno-variadic-macros',
-    #'-fexceptions',
-    #'-DNDEBUG',
-
-    '-x', 'c++',
-    '-std=c++11',
-]
-
 # This file is NOT licensed under the GPLv3, which is the license for the rest
 # of YouCompleteMe.
 #
@@ -52,7 +35,6 @@ import subprocess
 import ycm_core
 
 DIR_OF_THIS_SCRIPT = os.path.abspath( os.path.dirname( __file__ ) )
-DIR_OF_THIRD_PARTY = os.path.join( DIR_OF_THIS_SCRIPT, 'third_party' )
 SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]
 
 # These are the compilation flags that will be used in case there's no
@@ -159,25 +141,3 @@ def GetStandardLibraryIndexInSysPath( sys_path ):
     if os.path.isfile( os.path.join( path, 'os.py' ) ):
       return sys_path.index( path )
   raise RuntimeError( 'Could not find standard library path in Python path.' )
-
-
-def PythonSysPath( **kwargs ):
-  sys_path = kwargs[ 'sys_path' ]
-  for folder in os.listdir( DIR_OF_THIRD_PARTY ):
-    if folder == 'python-future':
-      folder = os.path.join( folder, 'src' )
-      sys_path.insert( GetStandardLibraryIndexInSysPath( sys_path ) + 1,
-                       os.path.realpath( os.path.join( DIR_OF_THIRD_PARTY,
-                                                       folder ) ) )
-      continue
-
-    if folder == 'cregex':
-      interpreter_path = kwargs[ 'interpreter_path' ]
-      major_version = subprocess.check_output( [
-        interpreter_path, '-c', 'import sys; print( sys.version_info[ 0 ] )' ]
-      ).rstrip().decode( 'utf8' )
-      folder = os.path.join( folder, 'regex_{}'.format( major_version ) )
-
-    sys_path.insert( 0, os.path.realpath( os.path.join( DIR_OF_THIRD_PARTY,
-                                                        folder ) ) )
-  return sys_path
