@@ -30,6 +30,6 @@ Install YouCompleteMe
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --go-completer --clang-completer
 
-Link YouCompleteMe config
+Copy YouCompleteMe config
 
-    ln -s ~/.dotfiles/.vim/.ycm_extra_conf.py ~/.vim/.ycm_extra_conf.py
+    cp ~/.dotfiles/.vim/.ycm_extra_conf.py ~/.vim/.ycm_extra_conf.py

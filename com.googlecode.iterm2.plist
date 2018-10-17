@@ -343,9 +343,9 @@
 		</array>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>377 115 918 566 0 0 1440 900 </string>
+	<string>282 174 937 566 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>515 43 1060 740 0 0 1440 900 </string>
+	<string>190 80 1060 740 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_F00521B4-F1D7-4C5A-9D1B-E0641F82D6EC</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_F00521B4-F1D7-4C5A-9D1B-E0641F82D6EC_selection</key>
@@ -990,7 +990,7 @@
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Set Local Environment Vars</key>
-			<true/>
+			<false/>
 			<key>Shortcut</key>
 			<string></string>
 			<key>Show Mark Indicators</key>
@@ -1199,7 +1199,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-10-08T14:15:08Z</date>
+	<date>2018-10-17T10:36:02Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
