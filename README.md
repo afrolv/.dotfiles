@@ -5,7 +5,7 @@ Install
 
 Clone repo
 
-    git clone https://github.com/AlexanderFrolov/.dotfiles.git ~/.dotfiles
+    git clone https://github.com/fxrlv/.dotfiles.git ~/.dotfiles
 
 Create symlinks
 
