@@ -16,8 +16,8 @@ flags = [
     '-isystem', '/usr/include',
     '-isystem', '/usr/local/include',
 
-    '-x', 'c', '-std=c99',
-    # '-x', 'c++', '-std=c++11',
+    '-x', 'c', '-std=c11',
+    #'-x', 'c++', '-std=c++11',
 ]
 
 compilation_database_folder = ''

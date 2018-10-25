@@ -343,7 +343,7 @@
 		</array>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>282 174 937 566 0 0 1440 900 </string>
+	<string>282 425 770 420 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>190 80 1060 740 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_F00521B4-F1D7-4C5A-9D1B-E0641F82D6EC</key>
@@ -990,7 +990,7 @@
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Set Local Environment Vars</key>
-			<false/>
+			<true/>
 			<key>Shortcut</key>
 			<string></string>
 			<key>Show Mark Indicators</key>
@@ -1199,7 +1199,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-10-17T10:36:02Z</date>
+	<date>2018-10-25T10:25:45Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1209,9 +1209,11 @@
 	<key>ShowNewOutputIndicator</key>
 	<false/>
 	<key>ShowPaneTitles</key>
-	<true/>
+	<false/>
 	<key>SmartPlacement</key>
 	<false/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.10000000000000001</real>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
@@ -2030,6 +2032,8 @@
 	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.2.20181004-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
