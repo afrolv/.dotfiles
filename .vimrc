@@ -24,6 +24,8 @@ set ignorecase
 
 set wildmenu
 set wildmode=list:full
+set wildignore+=*.d,*.o,*.out
+set wildignorecase
 
 set hidden
 set splitbelow
