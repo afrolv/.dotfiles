@@ -1,4 +1,4 @@
-![Screenshot](https://i.imgur.com/Rc2alI4.png)
+![Screenshot](https://i.imgur.com/V0u6FNk.png)
 
 Install
 =======
