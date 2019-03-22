@@ -1,11 +1,9 @@
-![Screenshot](https://i.imgur.com/V0u6FNk.png)
-
 Install
 =======
 
 Clone repo
 
-    git clone https://github.com/fxrlv/.dotfiles.git $HOME\.dotfiles
+    git clone https://github.com/fxrlv/.dotfiles.git -b windows $HOME\.dotfiles
 
 Create symlinks
 
@@ -22,13 +20,13 @@ Install Vundle
 
 Link custom theme
 
-    ln -s ~/.dotfiles/.vim/bundle/vim-airline/autoload/airline/themes/minimalist.vim ~/.vim/bundle/vim-airline/autoload/airline/themes/minimalist.vim
+    New-Item -ItemType SymbolicLink -Targe $HOME\.dotfiles\.vim\bundle\vim-airline\autoload\airline\themes\minimalist.vim -Path $HOME\.vim\bundle\vim-airline\autoload\airline\themes\minimalist.vim
 
 Install YouCompleteMe
 
-    cd ~/.vim/bundle/YouCompleteMe
-    ./install.py --go-completer --clang-completer
+    cd $HOME\.vim\bundle\YouCompleteMe
+    .\install.py --go-completer --clang-completer
 
 Copy YouCompleteMe config
 
-    cp ~/.dotfiles/.vim/.ycm_extra_conf.py ~/.vim/.ycm_extra_conf.py
+    cp $HOME/.dotfiles\.vim\.ycm_extra_conf.py $HOME\.vim\.ycm_extra_conf.py
