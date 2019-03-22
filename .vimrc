@@ -54,11 +54,11 @@ let g:cpp_class_scope_highlight = 1
 
 set completeopt=menuone
 map <C-]> ;YcmCompleter GoToDefinitionElseDeclaration<CR>
-let g:ycm_global_ycm_extra_conf   = '$HOME\.vim\.ycm_extra_conf.py'
-let g:ycm_key_invoke_completion   = '<C-p>'
-let g:ycm_use_ultisnips_completer = 0
-let g:ycm_enable_diagnostic_signs = 0
-let g:ycm_cache_omnifunc          = 0
-let g:echodoc#enable_at_startup   = 1
+"let g:ycm_global_ycm_extra_conf   = '$HOME\.vim\.ycm_extra_conf.py'
+"let g:ycm_key_invoke_completion   = '<C-p>'
+"let g:ycm_use_ultisnips_completer = 0
+"let g:ycm_enable_diagnostic_signs = 0
+"let g:ycm_cache_omnifunc          = 0
+"let g:echodoc#enable_at_startup   = 1
 
 autocmd BufWritePre * :%s/\s\+$//e
