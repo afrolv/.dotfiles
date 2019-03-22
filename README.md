@@ -24,6 +24,18 @@ Link custom theme
 
 Install YouCompleteMe
 
-    cd $HOME\.vim\bundle\YouCompleteMe
-    .\install.py --go-completer --clang-completer
+    cd $HOME
+    mkdir ycm_build
+    cd ycm_build
+    cmake -G "MinGW Makefiles" . $HOME\vimfiles\bundle\YouCompleteMe\third_party\ycmd\cpp
+    cmake --build . --target ycm_core --config Release
+    cd ..
+    rm -r ycm_buildo
+    cd vimfiles\bundle\YouCompleteMe\third_party\ycmd\third_party\go
+    $Env:GOPATH=pwd
+    cd src\github.com\mdempsky\gocode
+    go build
+    cd ..\..\..\..
+    cd src\github.com\rogpeppe\godef
+    go build
 
