@@ -1,18 +1,12 @@
 set nocompatible
 filetype off
 
-set rtp+=$HOME\.vim\bundle\Vundle.vim\
-call vundle#begin('$HOME\.vim\bundle\')
+set rtp+=~/vimfiles/bundle/Vundle.vim
+call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'bling/vim-bufferline'
-Plugin 'vim-airline/vim-airline'
-
-Plugin 'fatih/vim-go'
-
-"Plugin 'Valloric/YouCompleteMe'
-"Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
