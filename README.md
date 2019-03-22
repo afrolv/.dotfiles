@@ -5,21 +5,20 @@ Install
 
 Clone repo
 
-    git clone https://github.com/fxrlv/.dotfiles.git ~/.dotfiles
+    git clone https://github.com/fxrlv/.dotfiles.git $HOME\.dotfiles
 
 Create symlinks
 
-    mkdir -p ~/.vim/colors
-    ln -s ~/.dotfiles/.vim/colors/jellybeans.vim ~/.vim/colors/jellybeans.vim
-    ln -s ~/.dotfiles/.vim/plugins.vim ~/.vim/plugins.vim
-    ln -s ~/.dotfiles/.vim/mapping.vim ~/.vim/mapping.vim
-    ln -s ~/.dotfiles/.vimrc ~/.vimrc
-    ln -s ~/.dotfiles/.zshrc ~/.zshrc
+    mkdir $HOME/.vim/colors
+    New-Item -ItemType SymbolicLink -Targe $HOME\.dotfiles\.vim\colors\jellybeans.vim -Path $HOME\.vim\colors\jellybeans.vim
+    New-Item -ItemType SymbolicLink -Targe $HOME\.dotfiles\.vim\plugins.vim -Path $HOME\.vim\plugins.vim
+    New-Item -ItemType SymbolicLink -Targe $HOME\.dotfiles\.vim\mapping.vim -Path $HOME\.vim\mapping.vim
+    New-Item -ItemType SymbolicLink -Targe $HOME\.dotfiles\.vimrc -Path $HOME\.vimrc
 
 Install Vundle
 
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    vim +PluginInstall +qall
+    git clone https://github.com/VundleVim/Vundle.vim.git $HOME\.vim\bundle\Vundle.vim
+    vim -c 'set shell=cmd' -c 'set shellcmdflag=/c' +PluginInstall +qall
 
 Link custom theme
 
