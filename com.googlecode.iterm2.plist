@@ -33,7 +33,7 @@
 	<key>EnableDivisionView</key>
 	<false/>
 	<key>FlashTabBarInFullscreen</key>
-	<true/>
+	<false/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideActivityIndicator</key>
@@ -152,7 +152,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>170 179 918 514 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>93 -14 1438 886 0 0 1440 900 </string>
+	<string>176 75 1060 758 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 75 1060 742 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_AEC3832C-64CF-410D-8815-D3371DA48AD8</key>
@@ -1493,19 +1493,30 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.20190623-nightly</string>
-		<string>3.3.20190617-nightly</string>
-		<string>3.3.20190715-nightly</string>
+		<string>3.3.20190613-nightly</string>
+		<string>3.3.20190807-nightly</string>
+		<string>3.3.20190614-nightly</string>
 		<string>3.3.20190625-nightly</string>
-		<string>3.3.20190722-nightly</string>
+		<string>3.3.20190615-nightly</string>
 		<string>3.3.20190626-nightly</string>
-		<string>3.3.20190717-nightly</string>
+		<string>3.3.20190809-nightly</string>
+		<string>3.3.20190617-nightly</string>
+		<string>3.3.20190610-nightly</string>
+		<string>3.3.20190722-nightly</string>
 		<string>3.3.20190724-nightly</string>
 		<string>3.3.20190725-nightly</string>
-		<string>3.3.20190610-nightly</string>
-		<string>3.3.20190613-nightly</string>
-		<string>3.3.20190614-nightly</string>
-		<string>3.3.20190615-nightly</string>
+		<string>3.3.20190715-nightly</string>
 		<string>3.3.20190606-nightly</string>
+		<string>3.3.20190717-nightly</string>
+		<string>3.3.20190729-nightly</string>
+		<string>3.3.20190801-nightly</string>
+		<string>3.3.20190812-nightly</string>
+		<string>3.3.20190802-nightly</string>
+		<string>3.3.20190813-nightly</string>
+		<string>3.3.20190814-nightly</string>
+		<string>3.3.20190731-nightly</string>
+		<string>3.3.20190815-nightly</string>
+		<string>3.3.20190806-nightly</string>
 	</array>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
@@ -1524,7 +1535,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>5A608CB6-F4AB-41D5-8F33-7D1A9B9F5A42</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>337</integer>
+	<integer>371</integer>
 	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
 	<true/>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -1625,6 +1636,14 @@
 				<true/>
 				<key>name</key>
 				<string>columns</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>tab.tmuxWindowTitle</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1971,6 +1990,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>number</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.hostname</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -2263,7 +2290,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-07-26T08:58:52Z</date>
+	<date>2019-08-15T10:31:05Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -3042,7 +3069,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.3.20190725-nightly</string>
+	<string>3.3.20190815-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
