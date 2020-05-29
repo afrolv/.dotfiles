@@ -61,5 +61,6 @@ let g:ycm_enable_diagnostic_signs = 0
 let g:ycm_cache_omnifunc          = 0
 let g:echodoc#enable_at_startup   = 1
 let g:ycm_disable_signature_help  = 1
+let g:ycm_clangd_args             = ['--header-insertion=never']
 
 autocmd BufWritePre * :%s/\s\+$//e

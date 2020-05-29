@@ -1,0 +1,32 @@
+---
+Language: Cpp
+Standard: Cpp11
+UseTab:   Never
+IndentWidth: 4
+ColumnLimit: 0
+
+SpacesInAngles:            true
+SpaceAfterCStyleCast:      true
+SpaceAfterTemplateKeyword: false
+
+AlignConsecutiveAssignments:  true
+AlignConsecutiveDeclarations: true
+
+AlwaysBreakAfterReturnType: All
+
+BreakConstructorInitializers: AfterColon
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterControlStatement: true
+  AfterFunction:         true
+  AfterNamespace:        true
+  AfterStruct:           true
+  BeforeCatch:           true
+  BeforeElse:            true
+  SplitEmptyFunction:    false
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 2
+...
+
