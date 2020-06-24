@@ -63,4 +63,11 @@ let g:echodoc#enable_at_startup   = 1
 let g:ycm_disable_signature_help  = 1
 let g:ycm_clangd_args             = ['--header-insertion=never']
 
-autocmd BufWritePre * :%s/\s\+$//e
+function Trim()
+    let save_cursor = getpos(".")
+    silent! %s/\s\+$//e
+    silent! %s#\($\n\s*\)\+\%$##
+    call setpos('.', save_cursor)
+endfunction
+
+autocmd BufWritePre * call Trim()
