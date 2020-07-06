@@ -18,6 +18,7 @@ BreakConstructorInitializers: AfterColon
 
 BreakBeforeBraces: Custom
 BraceWrapping:
+  AfterClass:            true
   AfterControlStatement: true
   AfterFunction:         true
   AfterNamespace:        true
@@ -29,4 +30,3 @@ BraceWrapping:
 KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 2
 ...
-
