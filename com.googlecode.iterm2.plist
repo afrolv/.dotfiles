@@ -585,12 +585,12 @@
 					<key>Text</key>
 					<string>[1;6D</string>
 				</dict>
-				<key>0xf702-0x280000</key>
+				<key>0xf702-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
-					<integer>11</integer>
+					<integer>10</integer>
 					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x44</string>
+					<string>b</string>
 				</dict>
 				<key>0xf703-0x220000</key>
 				<dict>
@@ -613,12 +613,12 @@
 					<key>Text</key>
 					<string>[1;6C</string>
 				</dict>
-				<key>0xf703-0x280000</key>
+				<key>0xf703-0x280000-0x0</key>
 				<dict>
 					<key>Action</key>
-					<integer>11</integer>
+					<integer>10</integer>
 					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x43</string>
+					<string>f</string>
 				</dict>
 				<key>0xf704-0x20000</key>
 				<dict>
@@ -1532,6 +1532,7 @@
 		<string>3.3.20191030-nightly</string>
 		<string>3.3.20190623-nightly</string>
 		<string>3.3.20200403-nightly</string>
+		<string>3.4.20200719-nightly</string>
 		<string>3.3.20190801-nightly</string>
 		<string>3.3.20191127-nightly</string>
 		<string>3.3.20190809-nightly</string>
@@ -1540,6 +1541,7 @@
 		<string>3.3.20190814-nightly</string>
 		<string>3.3.20191011-nightly</string>
 		<string>3.3.20200512-nightly</string>
+		<string>3.4.20200707-nightly</string>
 		<string>3.3.20190829-nightly</string>
 		<string>3.3.20200609-nightly</string>
 		<string>3.3.20191204-nightly</string>
@@ -1559,6 +1561,7 @@
 		<string>3.3.20191205-nightly</string>
 		<string>3.3.20200227-nightly</string>
 		<string>3.4.20200624-nightly</string>
+		<string>3.4.20200713-nightly</string>
 		<string>3.3.20191121-nightly</string>
 		<string>3.3.20190625-nightly</string>
 		<string>3.3.20191210-nightly</string>
@@ -1645,9 +1648,9 @@
 	<key>NoSyncInstallationId</key>
 	<string>5A608CB6-F4AB-41D5-8F33-7D1A9B9F5A42</string>
 	<key>NoSyncLastOSVersion</key>
-	<string>Version 10.15.5 (Build 19F101)</string>
+	<string>Version 10.15.6 (Build 19G73)</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>884</integer>
+	<integer>948</integer>
 	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
 	<true/>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -2054,6 +2057,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.currentSession.termid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -2452,11 +2463,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-06T08:52:30Z</date>
+	<date>2020-07-28T11:46:21Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
-	<integer>3292307967</integer>
+	<integer>3586525809</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>Secure Input</key>
@@ -3235,7 +3246,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.4.20200704-nightly</string>
+	<string>3.4.20200719-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
