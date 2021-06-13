@@ -34,6 +34,7 @@ set splitright
 set nobackup
 set noswapfile
 set noshowmode
+set autoread
 
 set linebreak
 set listchars=tab:▸\ ,eol:¬
