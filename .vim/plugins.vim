@@ -14,6 +14,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'farmergreg/vim-lastplace'
 Plugin 'easymotion/vim-easymotion'
 
 call vundle#end()
